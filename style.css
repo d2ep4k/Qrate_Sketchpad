@@ -1,0 +1,55 @@
+.main-frame{
+    display: flex;
+    min-height: 98vh;  
+    /* border-style: solid; */
+    flex-direction:column;
+    background-color: beige;
+  }
+
+  .header{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 130%;  
+    text-align: center;
+    /* border-style: solid; */
+    flex:5;
+    /* margin:2px;       */
+  }
+  
+  .body{
+    background-color: white;
+    display :flex;
+    flex:500;
+    flex-direction:row;
+    /* border-style: solid;  */
+    /* margin:2px;          */
+  }
+
+  .left-palette{
+    background-color: beige;
+    flex : 10;
+    text-align: center;
+    /* border-style:solid;   */
+    /* margin : 2px;  */
+  }
+
+  .colours{
+    align-items: center;
+    margin:2px;
+  }
+
+  #can{
+    background-color: white;
+  }
+
+  .board{
+    flex : 200; 
+    border-style: double;     
+    margin:2px;  
+  }
+
+  .right-palette{
+    background-color : beige;
+    flex : 10;
+    /* border-style:solid;    */
+    /* margin : 2px;  */
+  }

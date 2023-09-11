@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>
+      Qrate
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    
+    </script>
+  </head>   
+  <body onload="init()">
+    <div class="main-frame">
+      <div class="header" >
+        Qrate your idea 
+      </div>    
+      <div class="body">        
+        <div class="left-palette">
+          <img id="canImg" height="40px" width="40px" style="top:10%;left:52%;" style="display:none;">
+          <input type="button" value="get image" id="btn" size="30" onclick="save()" style="top:55%;left:10%;">
+          <input type="button" value="clear" id="clr" size="23" onclick="erase()" style="top:55%;left:15%;"> 
+        </div>
+        <div class="board">
+            
+          <canvas width="1390" height="680" id="can">
+            **error : canvas not supported**
+          </canvas>
+        </div>
+            <div class="right-palette">
+              <div class="colours" style="width:30px;height:30px;background:green;border:2px solid" id="green" onclick="color(this)"></div>
+              <div class="colours" style="width:30px;height:30px;background:blue;border:2px solid" id="blue" onclick="color(this)"></div>
+              <div class="colours" style="width:30px;height:30px;background:red;border:2px solid" id="red" onclick="color(this)"></div>
+              <div class="colours" style="width:30px;height:30px;background:yellow;border:2px solid" id="yellow" onclick="color(this)"></div>
+              <div class="colours" style="width:30px;height:30px;background:orange;border:2px solid" id="orange" onclick="color(this)"></div>
+              <div class="colours" style="width:30px;height:30px;background:black;border:2px solid" id="black" onclick="color(this)"></div>
+              <div>Eraser</div>
+              <div class="colours" style="width:30px;height:30px;background:white;border:2px solid;" id="white" onclick="color(this)">
+            </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
