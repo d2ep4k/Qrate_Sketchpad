@@ -1,5 +1,5 @@
 # Qrate_Sketchpad
-Qrate is a basic sketchpad or notepad that can be used to sketch or curate something instantly.It comes with multiple hues and eraser capabilities.
+Qrate is a basic sketchpad or notepad that can be used to sketch or curate something instantly. It comes with multiple hues and eraser capabilities.
 It is possible to manually download and save the image you downloaded using the get image button.(After selecting "get image," an icon with the current sketch appears. To save the image, right-click it and select "save image as.."). 
 
 $$\ $$
