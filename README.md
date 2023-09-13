@@ -4,5 +4,5 @@ It is possible to manually download and save the image you downloaded using the 
 
 $$\ $$
 
-![image](https://github.com/d2ep4k/Qrate_Sketchpad/assets/143197927/cb565417-bc9a-4403-843e-2d4b8fabfe65)
+![image](https://github.com/d2ep4k/Qrate_Sketchpad/assets/143197927/322e857f-e907-456d-b188-f5aeb148451b)
 
